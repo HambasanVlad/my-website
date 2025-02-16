@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours and Prices</title>
+    <link rel="icon" type="image/png" href="photos/logoTours.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="photos/logoTours.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index85.html">Home</a></li>
+                <li><a href="tours.html" class="active">Tours & Prices</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="descriere-tour">
+        <h1 class="title-tour">Epic Hard Enduro Tours</h1>
+        <p class="description-tour">
+            Our tours run from <span class="highlight">10:00 to 17:00</span>, with a well-deserved <span
+                class="highlight">meal break</span> to recharge.
+            You’ll get <span class="highlight">full support</span> from our expert guides, including <span
+                class="highlight">riding tips</span>, stunning landscapes,
+            and a <span class="highlight">custom-prepared track</span> designed just for you.
+        </p>
+        <p class="description-tour">
+            Want more challenge or a smoother ride? No problem! Our guide can <span class="highlight">adjust the route
+                on the go</span>,
+            ensuring you get the best experience possible. Get ready for an <span class="highlight">unforgettable
+                adventure!</span>
+        </p>
+
+    </div>
+
+    <div class="container">
+        <div class="cards">
+            <!-- Predefined Offer 1 -->
+            <div class="card">
+                <img src="photos/tour1.jpeg" alt="Tour 1">
+                <div class="card-content">
+                    <h2 class="card-title">3 days enduro tour</h2>
+                    <p class="card-price">600€ / 950€</p>
+                    <p class="card-price">(without or with bike included)</p>
+
+                    <div>3 riding days</div>
+                    <div>4 accomodation nights</div>
+                    <div>Breakfast included</div>
+                    <div>Professional enduro guide</div>
+                    <div>Safe parking place</div>
+                    <div>Transfer from/to Sibiu Airport</div>
+                    <div>Suport in mechanical problems</div>
+
+
+
+                    <button class="contact-button" id="openModal1">Contact Us</button>
+                </div>
+            </div>
+
+            <!-- Predefined Offer 2 -->
+            <div class="card">
+                <img src="photos/tour2.jpeg" alt="Tour 2">
+                <div class="card-content">
+                    <h2 class="card-title">4 days enduro tour</h2>
+                    <p class="card-price">650€ / 1100€</p>
+                    <p class="card-price">(without or with bike included)</p>
+                    <div>4 riding days</div>
+                    <div>5 accomodation nights</div>
+                    <div>Breakfast included</div>
+                    <div>Professional enduro guide</div>
+                    <div>Safe parking place</div>
+                    <div>Transfer from/to Sibiu Airport</div>
+                    <div>Suport in mechanical problems</div>
+
+                    <button class="contact-button" id="openModal2">Contact Us</button>
+                </div>
+            </div>
+
+            <!-- Predefined Offer 3 -->
+            <div class="card">
+                <img src="photos/tour3.jpeg" alt="Tour 3">
+                <div class="card-content">
+                    <h2 class="card-title">5 days enduro tour</h2>
+                    <p class="card-price">700€ / 1330€</p>
+                    <p class="card-price">(without or with bike included)</p>
+                    <div>5 riding days</div>
+                    <div>7 accomodation nights</div>
+                    <div>Breakfast included</div>
+                    <div>Professional enduro guide</div>
+                    <div>Safe parking place</div>
+                    <div>Transfer from/to Sibiu Airport</div>
+                    <div>Suport in mechanical problems</div>
+
+                    <button class="contact-button" id="openModal3">Contact Us</button>
+                </div>
+            </div>
+
+            <!-- Personalized Tours -->
+            <div class="card">
+                <img src="photos/tour4.jpeg" alt="Personalized Tour">
+                <div class="card-content">
+                    <h2 class="card-title">Personalized Tour</h2>
+                    <p class="card-price">Price on Request</p>
+                    <p class="card-description">Tours designed to suit your preferences and skill level.</p>
+                    <button class="contact-button" id="openModal4">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us via the details below:</p>
+            <div class="info">📧 Email: <a href="mailto:powerriders.tours@gmail.com">powerriders.tours@gmail.com</a>
+            </div>
+            <div class="info">📞 Florin (Deutsch): <a href="tel:+40747496223">+40747496223</a></div>
+            <div class="info">📞 Vlad (English): <a href="tel:+40747496223">+40747496223</a></div>
+            <button class="close-button" id="closeModal">Close</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="contact-row">
+            <div class="contact-item">
+                <img src="icons/mail-icon.png" alt="Mail Icon" class="icon">
+                <p><a href="mailto:powerriders.tours@gmail.com">powerriders.tours@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+
+                <img src="icons/phone-icon.png" alt="Phone Icon" class="icon">
+                <p>Vlad: <a href="tel:+40747496223">+40747496223</a> (ENGLISH)</p>
+                <p>Florin: <a href="tel:+40745696110">+40745696110</a> (DEUTSCH)</p>
+            </div>
+            <div class="contact-item">
+                <img src="icons/address-icon.png" alt="Address Icon" class="icon">
+                <p>Sibiu, Romania</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // Open modal when any contact button is clicked
+            $('.contact-button').on('click', function () {
+                $('#modalOverlay').css('display', 'flex');
+            });
+
+            // Close modal when close button is clicked
+            $('#closeModal').on('click', function () {
+                $('#modalOverlay').css('display', 'none');
+            });
+
+            // Close modal when clicking outside the modal content
+            $('#modalOverlay').on('click', function (e) {
+                if (e.target === this) {
+                    $(this).css('display', 'none');
+                }
+            });
+        });
+
+
+        // When the window has fully loaded, fade out the loader and show the content using jQuery
+        $(window).on('load', function () {
+            $('.loader').fadeOut('slow', function () {
+                $('body').fadeIn('slow');
+            });
+        });
+
+    </script>
+
+    <div class="loader">
+        <img src="photos/logoTours.png" alt="Logo" class="loaderlogo" />
+    </div>
+
+</body>
+
+</html>

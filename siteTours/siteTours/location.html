@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="icon" type="image/png" href="photos/logoTours.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="photos/logoTours.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index85.html">Home</a></li>
+                <li><a href="tours.html">Tours & Prices</a></li>
+                <li><a href="location.html" class="active">Location</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="location-hero">
+            <div class="hero-overlay">
+                <h1>Location</h1>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="content">
+            <div class="description">
+                <h2>Sibiu, Romania</h2>
+                <p>
+                    Sibiu, known as the <strong>enduro capital of Romania</strong>, offers a unique mix of
+                    <strong>adventure</strong>,
+                    <strong>history</strong>, and
+                    <strong>breathtaking mountain landscapes</strong>. Hosting the famous <strong>Red Bull
+                        Romaniacs</strong> event, the city attracts enduro
+                    enthusiasts from all over the world. With access to a variety of <strong>diverse trails</strong>
+                    stretching through the
+                    Carpathian Mountains, from technical paths to forest roads, Sibiu is the perfect destination for
+                    adrenaline seekers. Additionally, its <strong>medieval center</strong> provides a vibrant historical
+                    atmosphere, combined
+                    with opportunities for <strong>fun and relaxation</strong>, making Sibiu the ultimate destination
+                    for
+                    enduro tours.
+                </p>
+            </div>
+
+            <!-- Embed Map -->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27102.785682441313!2d24.1255825!3d45.7983276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c67b15f2f7b11%3A0xf203917f86c21a93!2sSibiu%2C%20Romania!5e0!3m2!1sen!2sro!4v1673264359262!5m2!1sen!2sro"
+                    width="100" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        <section class="hotel-section">
+            <div class="hotel-content">
+                <div class="hotel-image">
+                    <img src="photos/Hotel-Epic-Centrum.jpg" alt="Epic Centrum Hotel">
+                </div>
+                <div class="hotel-info">
+                    <h2>Epic Centrum Hotel - four stars</h2>
+                    <p>Located in the heart of the city of Cisnadie, the Epic Centrum Hotel offers luxurious
+                        accommodations and
+                        top-tier amenities for travelers. Whether you're here for adventure or relaxation, our hotel
+                        provides the perfect blend of comfort and convenience.</p>
+                    <p>Enjoy spacious rooms, exquisite dining options, and stunning city views. Just minutes away from
+                        key attractions, Epic Centrum is your ideal base for exploration.</p>
+                    <p>Book your stay now and experience unparalleled hospitality.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-row">
+            <div class="contact-item">
+                <img src="icons/mail-icon.png" alt="Mail Icon" class="icon">
+                <p><a href="mailto:powerriders.tours@gmail.com">powerriders.tours@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+
+                <img src="icons/phone-icon.png" alt="Phone Icon" class="icon">
+                <p>Vlad: <a href="tel:+40747496223">+40747496223</a> (ENGLISH)</p>
+                <p>Florin: <a href="tel:+40745696110">+40745696110</a> (DEUTSCH)</p>
+            </div>
+            <div class="contact-item">
+                <img src="icons/address-icon.png" alt="Address Icon" class="icon">
+                <p>Sibiu, Romania</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loader">
+        <img src="photos/logoTours.png" alt="Logo" class="loaderlogo" />
+    </div>
+
+    <script>
+        // When the window has fully loaded, fade out the loader and show the content using jQuery
+        $(window).on('load', function () {
+            $('.loader').fadeOut('slow', function () {
+                $('body').fadeIn('slow');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

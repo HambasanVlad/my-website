@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" type="image/png" href="photos/logoTours.png">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="loader">
+        <img src="photos/logoTours.png" alt="Logo" class="loaderlogo" />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // When the window has fully loaded, fade out the loader and show the content using jQuery
+        $(window).on('load', function () {
+            $('.loader').fadeOut('slow', function () {
+                $('body').fadeIn('slow');
+            });
+        });
+    </script>
+
+    <header>
+        <div class="logo">
+            <img src="photos/logoTours.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index85.html">Home</a></li>
+                <li><a href="tours.html">Tours & Prices</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pictures">
+            <img width=300px src="photos/photo1.jpeg" alt="picture">
+            <img width=300px src="photos/photo2.jpeg" alt="picture">
+            <img width=300px src="photos/tour3.jpeg" alt="picture">
+            <img width=300px src="photos/photo4.jpeg" alt="picture">
+            <img width=300px src="photos/photo3.jpeg" alt="picture">
+            <img width=300px src="photos/photo5.jpeg" alt="picture">
+            <img width=300px src="photos/photo6.jpeg" alt="picture">
+            <img width=300px src="photos/tour2.jpeg" alt="picture">
+            <img width=300px src="photos/photo7.jpeg" alt="picture">
+            <img width=300px src="photos/tour1.jpeg" alt="picture">
+            <img width=300px src="photos/photo8.jpeg" alt="picture">
+            <img width=300px src="photos/photo9.jpeg" alt="picture">
+            <img width=300px src="photos/photo10.jpeg" alt="picture">
+            <img width=300px src="photos/photo11.jpeg" alt="picture">
+            <img width=300px src="photos/tour4.jpeg" alt="picture">
+            <img width=300px src="photos/photo12.jpeg" alt="picture">
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-row">
+            <div class="contact-item">
+                <img src="icons/mail-icon.png" alt="Mail Icon" class="icon">
+                <p><a href="mailto:powerriders.tours@gmail.com">powerriders.tours@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+
+                <img src="icons/phone-icon.png" alt="Phone Icon" class="icon">
+                <p>Vlad: <a href="tel:+40747496223">+40747496223</a> (ENGLISH)</p>
+                <p>Florin: <a href="tel:+40745696110">+40745696110</a> (DEUTSCH)</p>
+            </div>
+            <div class="contact-item">
+                <img src="icons/address-icon.png" alt="Address Icon" class="icon">
+                <p>Sibiu, Romania</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

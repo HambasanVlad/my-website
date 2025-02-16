@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/png" href="photos/logoTours.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="photos/logoTours.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index85.html">Home</a></li>
+                <li><a href="tours.html">Tours & Prices</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-about">
+            <h1 class="section-title">About Us</h1>
+
+            <!-- Person 1 -->
+            <div class="profile">
+                <img src="photos/tati.jpg" alt="Person 1">
+                <div class="description-about">
+                    <h3>Vasile Hambasan - The Mastermind with Over a Decade of Expertise</h3>
+                    <p>With over 10 years of experience guiding enduro tours, Vasile Hambasan is the stone of our
+                        team. His journey began in 2005, and since then, he created
+                        unforgettable rides for enthusiasts from all over the world,including one of his tourists was
+                        Andreas Lettenbichler. Vasile has worked, the most time
+                        for KTM tours, organizing countless adventures and leaving riders thrilled and satisfied.
+                        Vasile's expertise extends far beyond guiding, as a
+                        competitor, Vasile is an exceptional rider with an impressive racing background. He has
+                        participated in the legendary Erzbergrodeo twice, secured multiple national results, and
+                        competed extensively during his youth. His unparalleled experience, skill, and passion make him
+                        a true guide in the enduro world.</p>
+                </div>
+            </div>
+
+            <!-- Person 2 -->
+            <div class="profile">
+                <img src="photos/vlad.jpg" alt="Person 2">
+                <div class="description-about">
+                    <h3>Vlad Hambasan - The Rising Star</h3>
+                    <p>Following in his father's footsteps, Vlad Hambasan is a rising star in the enduro world. With 3
+                        years of experience guiding tours for all levels of riders, Vlad is not only an excellent guide
+                        but also an
+                        accomplished athlete. Driven to excel at the highest level of the sport, Vlad has already
+                        achieved remarkable
+                        results in his racing career.
+                        <br>Achievements:<br>
+                    </p>
+                    <ul>
+                        <li>Champion of Romania in Hard Enduro </li>
+                        <li>5th place in the Silver Class at the 2024 Red Bull Romaniacs.</li>
+                        <li>Vice-Champion of Romania in Hard Enduro 2024.</li>
+                        <li>7th place in the Bronze Class at the 2022 Red Bull Romaniacs.</li>
+                        <li>Competitor at the prestigious GetzenRodeo in 2023.</li>
+                        <li>Many 1st places in the national stage of hard enduro and endurocross</li>
+                    </ul>
+                    <p> Under the guidance of his father, Vlad continues to grow both as a guide and as a professional
+                        athlete. For Vlad, his father is more than a coach - he's a mentor and a lifelong inspiration.
+                        You can check some video's with him on instagram:
+                        <a href="https://www.instagram.com/hambasanvladc/" target="_blank" rel="noopener noreferrer"
+                            class="aicilink">
+                            <strong>here</strong>
+                        </a>
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- Person 3 -->
+            <div class="profile">
+                <img src="photos/person3.jpg" alt="Person 3">
+                <div class="description-about">
+                    <h3>Fabian - The Ultimate Sports Masseur</h3>
+                    <p>To complete your enduro experience, we offer access to one of the best sports masseurs in the
+                        business - Fabian. As the principal masseur of the Red Bull Romaniacs World Championship, Fabian
+                        works with elite riders, including Graham Jarvis, Teodor Kabakchiev, Mario Roman, Sonny Goggia,
+                        Suff Sella, and many more any time when they come to train or race in Romania.
+
+                        Whether you need recovery after an intense ride or simply want to relax, Fabian's expertise
+                        ensures that you leave feeling refreshed and ready for your next adventure.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-row">
+            <div class="contact-item">
+                <img src="icons/mail-icon.png" alt="Mail Icon" class="icon">
+                <p><a href="mailto:powerriders.tours@gmail.com">powerriders.tours@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+
+                <img src="icons/phone-icon.png" alt="Phone Icon" class="icon">
+                <p>Vlad: <a href="tel:+40747496223">+40747496223</a> (ENGLISH)</p>
+                <p>Florin: <a href="tel:+40745696110">+40745696110</a> (DEUTSCH)</p>
+            </div>
+            <div class="contact-item">
+                <img src="icons/address-icon.png" alt="Address Icon" class="icon">
+                <p>Sibiu, Romania</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loader">
+        <img src="photos/logoTours.png" alt="Logo" class="loaderlogo" />
+    </div>
+
+    <script>
+        // When the window has fully loaded, fade out the loader and show the content using jQuery
+        $(window).on('load', function () {
+            $('.loader').fadeOut('slow', function () {
+                $('body').fadeIn('slow');
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
